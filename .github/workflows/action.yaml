@@ -11,7 +11,7 @@ jobs:
 
     - name: Update README with timestamp
       run: |
-        echo "Last updated: $(date -u)" >> README.md
+        echo "Last updated: $(date -u)" > README.md
 
     - name: Commit and push if changed
       run: |
